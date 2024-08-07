@@ -1,0 +1,77 @@
+body{background-color: pink;
+    /* background-image: url('../assets/peach.jpeg'); */
+    /* background-repeat: no-repeat;
+    background-size:cover ;
+    height: 100vh; */
+ }
+ 
+ .nav {
+    width: 100%;
+    /* display: flex; */
+    
+ }
+  
+ .nav-items{
+   list-style-type: none;
+   display: flex;
+   justify-content: flex-end;
+ }
+ 
+ .nav-items li a{
+ 
+    padding: 20px;
+    text-decoration: none;
+    font-weight: 30px;
+    color: #000;
+    transition: color 0.25s;
+ }
+ 
+ .menu{
+    display: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+ }
+ 
+  @media only screen and  (max-width:500px) {
+ .nav-items {
+    display: none;
+    flex-direction: column;
+   /* border: 1px solid  black; */
+   
+ }
+ .nav-items.open{
+    display: flex;
+ }
+ .nav-items li{
+    margin: 0.5rem 0;
+ }
+ .menu{
+    display: block;
+ }
+  }
+ /* 
+  .hove::after{
+    position: absolute;
+    content: " ";
+    inset: 0;
+    background-color: white;
+    scale: 1 0;
+    z-index: -1;
+    transition: 0.45s;
+    border-radius: 10px;
+  } */
+ 
+ .hove:hover{
+    font-weight:bold ;
+    cursor: pointer;
+ } 
+ /* 
+ .hove:hover::after{
+    scale: 1 1;
+ }
+     */
+  
+ 
+ 
+ 
+ 
