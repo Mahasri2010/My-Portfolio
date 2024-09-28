@@ -16,6 +16,11 @@ const Work_Data = [
         w_no:"03",
         w_name:"Web Design",
         w_img:img2
+    },
+    {
+        w_no:"04",
+        w_name:"Web Design",
+        w_img:img2
     }
 
 ]

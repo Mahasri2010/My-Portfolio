@@ -4,10 +4,10 @@ import ProfileImage from '../../assets/ProfileImage.jpg'
 
 const About = () => {
     return (
-        <div className='about'>
+        <div id='about' className='about'>
             <div className="about-title">
                 <h1>About Me</h1>
-                <img src="" alt="design" />
+                {/* <img src="" alt="design" /> */}
             </div>
             <div className="about-section">
                 <div className="about-left">

@@ -4,10 +4,10 @@ import Services_Data from '../../assets/Services_Data'
 
 const Services = () => {
   return (
-    <div className='Services'>
+    <div id='service' className='Services'>
         <div className="Services-title">
             <h1>My Services</h1>
-            <img src="" alt="design" />
+            {/* <img src="" alt="design" /> */}
         </div>
         <div className="Services-cointainer">
             {Services_Data.map((s,index)=>{

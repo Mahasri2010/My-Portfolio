@@ -6,8 +6,9 @@ import Services from './Component/Services/Services'
 import Works from './Component/Works/Works'
 import Contact from './Component/Contact/Contact'
 import Footer from './Component/Footer/Footer'
+import{Routes,Route} from 'react-router-dom'
 
-function App() {
+const App = ()=> {
  
 
   return (
@@ -15,12 +16,17 @@ function App() {
       <div>
 
         <Navbar/>
-        <Hero/>
-        <About/>
-        <Services/>
-        <Works/>
-        <Contact/>
-        <Footer/>
+        <Routes>
+          <Route path='/' element={<Hero />}/>
+          <Route path='/about' element={<About />}/>
+          <Route path='/service' element={<Services />}/>
+          <Route path='/work' element={<Works />}/>
+          <Route path='/contact' element={<Contact />}/>
+          <Route path='/foot' element={<Footer />}/>
+        </Routes>
+       
+        
+       
        
       </div>
      </>
